@@ -1,17 +1,16 @@
-name: pi
+name: cutiepi
 version: 18-1
-summary: Raspberry Pi gadget
+summary: CutiePi tablet gadget
 description: |
- Support files for booting Raspberry Pi.
- This gadget snap supports the Raspberry Pi 2B, 3B, 3A+, 3B+, 4B, Compute
- Module 3, and the Compute Module 3+ universally.
+ Support files for booting CutiePi tablet.
+ This gadget snap supports the CutiePi tablet.
 type: gadget
 base: core18
 architectures:
   - build-on: [amd64, arm64]
     run-on: arm64
 confinement: strict
-grade: stable
+grade: devel
 parts:
   gadget:
     plugin: nil
